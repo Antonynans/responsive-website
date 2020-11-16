@@ -1,14 +1,14 @@
 export const homeObjOne = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Exclusive Access',
-    headline: 'Unlimited Transactions with zero fees',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'VIEW OUR PRODUCTS',
+    headline: 'Shop through our catalog of products',
     description:
-      'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
-    buttonLabel: 'Get Started',
+      'We provide worldwide shipping to all countries. If there are any issues, just issue a refund and we will process your request',
+    buttonLabel: 'Shop Now',
     imgStart: '',
-    img: 'images/svg-1.svg',
+    img: 'images/svg-4.svg',
     alt: 'Credit Card'
   };
   

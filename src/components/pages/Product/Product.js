@@ -3,18 +3,13 @@ import HeroSection from '../../pages/HeroSection';
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
 import Pricing from '../../Pricing';
 
-function Home() {
+function Products() {
   return (
     <>
       <HeroSection {...homeObjOne} />
-      <HeroSection {...homeObjThree} />
       <HeroSection {...homeObjTwo} />
-      <Pricing />
-      <HeroSection {...homeObjFour} />
     </>
   );
 }
 
-export default Home;
-
-
+export default Products;
